@@ -1,9 +1,10 @@
 /*
-模板模式（Template Method Pattern）定义一个操作的框架，并允许子类实现其中的部分步骤。模板模式的核心是一个基础结构体（或类）提供骨架方法，而具
-体实现步骤由子类定义。
-模板模式示例，模拟制作饮品的过程，其中 Beverage 是模板接口，包含固定的 PrepareRecipe 方法。不同的饮品（如茶和咖啡）实现 Beverage 接口的具体
+概念与定义：模板模式（Template Method Pattern）定义一个操作的框架，并允许子类实现其中的部分步骤。模板模式的核心是一个基础结构体（或类）提供骨
+架方法，而具体实现步骤由子类定义。
+例子：模拟制作饮品的过程，其中 Beverage 是模板接口，包含固定的 PrepareRecipe 方法。不同的饮品（如茶和咖啡）实现 Beverage 接口的具体
 步骤方法
 */
+
 package template
 
 import "fmt"
